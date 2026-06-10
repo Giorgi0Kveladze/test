@@ -1,0 +1,65 @@
+# AI/assistant-generated workspace docs
+CLAUDE.md
+tools-setup.md
+.cursor/
+
+# Lab materials to keep out of this repo
+Lab-3/
+Lab-4/
+Lab-5/
+Lab-6/
+Lab-7/
+Lab_1/
+lab-2/
+
+# Common local/editor/temp artifacts
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+# Stitch design reference (downloaded HTML + screenshots)
+_stitch/
+
+# Next.js / Node dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.local.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
